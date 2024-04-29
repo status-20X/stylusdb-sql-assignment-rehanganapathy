@@ -1,7 +1,5 @@
-#!/usr/bin/env node
-
 const readline = require('readline');
-const { executeSELECTQuery, executeINSERTQuery, executeDELETEQuery } = require('./queryExecuter');
+const { executeSELECTQuery, executeDELETEQuery, executeINSERTQuery } = require('./index');
 
 const rl = readline.createInterface({
     input: process.stdin,
